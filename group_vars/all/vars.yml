@@ -1,0 +1,6 @@
+---
+# Add global settings here
+
+# aws-cloudformation role settings
+cf_stack_name: "network-resources"
+cf_stack_template: "templates/network.yml.j2"

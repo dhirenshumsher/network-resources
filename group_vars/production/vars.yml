@@ -1,0 +1,10 @@
+### Production environment settings
+
+# STS role and target account
+sts_role_arn: arn:aws:iam::543279062384:role/admin
+
+# VPCs
+config_vpcs:
+  default:
+    vpc_cidr: 192.168.0.0/20
+    vpc_domain: dockerproductionaws.org
